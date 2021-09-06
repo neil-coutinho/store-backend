@@ -20,4 +20,9 @@ export const ProductImage = list({
       ref: 'Product.photo',
     }),
   },
+  ui: {
+    listView: {
+      initialColumns: ['image', 'altText', 'product'],
+    },
+  },
 });
